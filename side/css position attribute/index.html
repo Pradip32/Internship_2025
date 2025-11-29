@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Position Example</title>
+  <style>
+    /* Common styling */
+    div {
+      width: 150px;
+      height: 80px;
+      padding: 10px;
+      margin: 15px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .static {
+      background: blue;
+      position: static; /* Default */
+    }
+
+    .relative {
+      background: green;
+      position: relative;
+      left: 30px;  /* Moves 30px right */
+      top: 10px;   /* Moves 10px down */
+    }
+
+    .absolute {
+      background: orange;
+      position: absolute;
+      top: 200px;  /* Distance from top of page */
+      left: 250px; /* Distance from left of page */
+    }
+
+    .fixed {
+      background: red;
+      position: fixed;
+      bottom: 20px;  /* Sticks to bottom */
+      right: 20px;   /* Sticks to right */
+    }
+
+    .sticky {
+      background: purple;
+      position: sticky;
+      top: 0; /* Sticks to top while scrolling */
+    }
+
+    body {
+      height: 1500px; /* For scroll demo */
+    }
+  </style>
+</head>
+<body>
+  <h2>CSS Position Examples</h2>
+
+  <div class="static">Static</div>
+  <div class="relative">Relative</div>
+  <div class="absolute">Absolute</div>
+  <div class="fixed">Fixed</div>
+  <div class="sticky">Sticky (scroll down)</div>
+
+</body>
+</html>
