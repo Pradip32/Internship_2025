@@ -12,15 +12,15 @@
     * Live: [Link](https://pradip32.github.io/Internship_2025/side/css%20position%20attribute/index.html)
     * Source Code: [Link](./side/css%20position%20attribute/index.html)
 * **Design Card using CSS**
-    * Live: [Link](./)
-    * Source Code: [Link](./)
+    * Live: [Link](https://pradip32.github.io/Internship_2025/side/Design%20Card%20using%20CSS/index.html)
+    * Source Code: [Link](./side/Design%20Card%20using%20CSS/index.html)
 
 ---
 
 ### 🔹 Week 2 (June 9 - June 13)
 * **Multicolor Website**
-    * Live: [Link](./)
-    * Source Code: [Link](./)
+    * Live: [Link](https://pradip32.github.io/Internship_2025/side/multicolor%20website/index.html)
+    * Source Code: [Link](./side/multicolor%20website/index.html)
 * **Blog Website with CSS**
     * Live: [Link](https://pradip32.github.io/Internship_2025/side/blog%20website%20with%20css/index.html)
     * Source Code: [Link](./side/blog%20website%20with%20css/index.html)

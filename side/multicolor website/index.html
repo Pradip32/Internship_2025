@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Only Radium</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="radio" name="theme" id="theme-lime" checked />
+    <input type="radio" name="theme" id="theme-cyan" />
+    <input type="radio" name="theme" id="theme-pink" />
+    <input type="radio" name="theme" id="theme-orange" />
+
+    <div class="wrapper">
+      <div class="card">
+        <h1>Radium CSS</h1>
+        <p>
+          Select a color below. <br />
+          <b>No JavaScript used!</b>
+        </p>
+
+        <div class="pickers">
+          <label for="theme-lime" class="color-btn lbl-lime"></label>
+          <label for="theme-cyan" class="color-btn lbl-cyan"></label>
+          <label for="theme-pink" class="color-btn lbl-pink"></label>
+          <label for="theme-orange" class="color-btn lbl-orange"></label>
+        </div>
+
+        <button class="btn-main">Enter System</button>
+      </div>
+    </div>
+  </body>
+</html>

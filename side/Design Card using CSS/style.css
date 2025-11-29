@@ -1,0 +1,111 @@
+/* 1. Dark Background */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #121212; /* Deep Black/Grey */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #e0e0e0;
+}
+
+/* 2. Dark Card with Glow */
+.dev-card {
+  background-color: #1e1e1e; /* Slightly lighter grey */
+  width: 320px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid #333;
+  /* Radium Purple Glow */
+  box-shadow: 0 0 20px rgba(180, 50, 255, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dev-card:hover {
+  transform: translateY(-5px);
+  /* Stronger Glow on Hover */
+  box-shadow: 0 0 30px rgba(180, 50, 255, 0.3);
+}
+
+/* 3. Image with Lime Border */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* Neon Lime Border */
+  border: 3px solid #ccff00;
+  box-shadow: 0 0 15px rgba(204, 255, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+/* 4. Text Styling */
+h2 {
+  margin: 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+p.role {
+  color: #ccff00; /* Neon Lime Text */
+  font-weight: 500;
+  margin: 5px 0 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.8rem;
+  text-shadow: 0 0 5px rgba(204, 255, 0, 0.5);
+}
+
+p.bio {
+  color: #a0a0a0; /* Muted Grey for easy reading */
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* 5. Neon Buttons */
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Primary: Purple Background */
+.btn-primary {
+  background: #9d00ff; /* Electric Purple */
+  color: white;
+  box-shadow: 0 0 10px rgba(157, 0, 255, 0.5);
+  border: 2px solid #9d00ff;
+}
+
+.btn-primary:hover {
+  background: #b53dff;
+  box-shadow: 0 0 20px rgba(157, 0, 255, 0.8);
+}
+
+/* Secondary: Lime Outline */
+.btn-secondary {
+  background: transparent;
+  color: #ccff00;
+  border: 2px solid #ccff00;
+  box-shadow: 0 0 5px rgba(204, 255, 0, 0.2);
+}
+
+.btn-secondary:hover {
+  background: #ccff00;
+  color: black; /* Black text on lime looks cool */
+  box-shadow: 0 0 20px rgba(204, 255, 0, 0.6);
+}
