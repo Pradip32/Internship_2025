@@ -52,8 +52,8 @@
 
 ### 🔹 Week 5 (June 30 - July 4)
 * **DOM Manipulation with Randomization**
-    * Live: [Link](https://pradip32.github.io/Internship_2025/side/DOM%20(Randomization)/index.html)
-    * Source Code: [Link](./side/DOM%20(Randomization)/index.html)
+    * Live: [Link](https://pradip32.github.io/Internship_2025/side/Photo%20Gallery%20Responsive/index.html)
+    * Source Code: [Link](./side/Photo%20Gallery%20Responsive/index.html)
 * **Hacker Terminal**
     * Live: [Link](https://pradip32.github.io/Internship_2025/side/hacker%20terminal/index.html)
     * Source Code: [Link](./side/hacker%20terminal/index.html)
